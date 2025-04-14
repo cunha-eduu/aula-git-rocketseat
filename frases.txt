@@ -62,5 +62,4 @@ Envia os commits locais para o repositório remoto.
 - Commits pequenos e frequentes facilitam o rastreamento.
 - Use mensagens de commit claras e objetivas.
 
-modificados
 
