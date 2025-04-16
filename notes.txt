@@ -1,0 +1,64 @@
+🚀 O que é Git?
+
+Git é um sistema de controle de versão. Ele permite que você:
+- Salve o histórico das alterações no seu projeto.
+- Volte no tempo se algo der errado.
+- Trabalhe com outras pessoas no mesmo projeto sem bagunça.
+
+✅ Comandos básicos:
+
+1. git init
+Cria um novo repositório Git na pasta atual.
+Inicia o rastreamento de alterações do projeto.
+
+2. git status
+Mostra o estado atual dos arquivos no repositório.
+Indica arquivos modificados, adicionados ou deletados.
+
+3. git add .
+Adiciona todos os arquivos modificados para a área de stage.
+O ponto (.) significa "todos os arquivos".
+
+ (use "git rm --cached <file>..." to unstage)
+
+
+4. git commit -m "mensagem"
+Salva as mudanças adicionadas com uma mensagem explicativa.
+A mensagem deve dizer o que foi feito na alteração.
+
+5. git log
+Mostra o histórico de commits.
+Exibe ID, autor, data e mensagem de cada commit.
+
+🔧 Outros comandos essenciais:
+
+- git clone [URL]
+Clona um repositório remoto para sua máquina.
+Ex: git clone https://github.com/usuario/repositorio.git
+
+- git branch
+Lista as branches do projeto.
+
+- git checkout -b nome-da-branch
+Cria e muda para uma nova branch.
+
+- git checkout nome-da-branch
+Muda para uma branch existente.
+
+- git merge nome-da-branch
+Junta a branch informada com a branch atual.
+
+- git pull
+Baixa as mudanças mais recentes do repositório remoto.
+
+- git push
+Envia os commits locais para o repositório remoto.
+
+
+
+💡 Dicas práticas:
+
+- Sempre rode git status antes de fazer um commit.
+- Commits pequenos e frequentes facilitam o rastreamento.
+- Use mensagens de commit claras e objetivas.
+
